@@ -125,7 +125,7 @@ export default function WorldMap() {
             <ComposableMap
               projection="geoRobinson"
               style={{ width: '100%', height: '100%', background: '#0F1624' }}
-              projectionConfig={{ scale: 140, center: [20, 10] }}
+              projectionConfig={{ scale: 140, rotate: [-20, 0, 0] }}
             >
               <Geographies geography={GEO_URL}>
                 {({ geographies }: { geographies: unknown[] }) =>
