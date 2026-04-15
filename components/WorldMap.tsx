@@ -123,9 +123,9 @@ export default function WorldMap() {
           {/* Desktop map */}
           <div className="hidden md:block relative" style={{ height: '480px' }}>
             <ComposableMap
-              projection="geoRobinson"
+              projection="geoEqualEarth"
               style={{ width: '100%', height: '100%', background: '#0F1624' }}
-              projectionConfig={{ scale: 140, rotate: [-20, 0, 0] }}
+              projectionConfig={{ scale: 140 }}
             >
               <Geographies geography={GEO_URL}>
                 {({ geographies }: { geographies: unknown[] }) =>
