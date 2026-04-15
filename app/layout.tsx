@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ICCA GlobeWatch 2024 — Rankings",
+  title: "cities-geo — ICCA Rankings 2024",
   description:
-    "Dashboard interativo com os rankings ICCA 2024: top cidades e países em reuniões internacionais. Lisboa #2 mundial.",
+    "cities-geo: explorador de dados ICCA 2024. Top cidades e países em reuniões internacionais. Lisboa #2 mundial.",
 };
 
 export default function RootLayout({
